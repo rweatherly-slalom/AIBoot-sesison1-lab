@@ -50,7 +50,7 @@ describe('App Component', () => {
     await act(async () => {
       render(<App />);
     });
-    expect(screen.getByText('React Frontend with Node Backend')).toBeInTheDocument();
+    expect(screen.getByText('hellow world 🧚🚀')).toBeInTheDocument();
     expect(screen.getByText('Connected to in-memory database')).toBeInTheDocument();
   });
 
